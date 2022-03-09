@@ -22,6 +22,8 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - name: Check out main repository
+        uses: actions/checkout@v2    
       - name: Get composite run steps repository
         uses: actions/checkout@v2
         with:
