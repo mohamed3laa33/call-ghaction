@@ -27,7 +27,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          repository: foo-user/bar-repo
+          repository: mohamed3laa33/test-ghaction
           path: '.github/myaction'        
  
     
