@@ -29,5 +29,5 @@ jobs:
         with:
           repository: mohamed3laa33/test-ghaction
           ref: v1.0.0
-          path: actions.yaml
+          path: .github/myaction
     
